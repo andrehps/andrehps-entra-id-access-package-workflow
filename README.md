@@ -5,7 +5,7 @@ This project demonstrates the implementation of **Identity Governance and Access
 
 ## 🏗️ Architecture & Workflow Design
 The system automates the access lifecycle through a 4-step sequence:
-1. **Request Phase (Self-Service):** An active user (`engineer.test`) requests access to a production container via the specialized end-user portal (`://microsoft.com`).
+1. **Request Phase (Self-Service):** An active user (`engineer.test`) requests access to a production container via the specialized end-user portal (`://myaccount.microsoft.com`).
 2. **Evaluation Phase (Dual Authorization):** To isolate administrative boundaries, a non-privileged business manager (`manager.test`) reviews the request, checks the business justification, and authorizes it.
 3. **Provisioning Phase (Automated):** Upon approval, the Microsoft Entra engine automatically injects the user into the target security group (`grp-engineering-prod`).
 4. **Lifecycle Expiration (Auto-Remediation):** The access profile strictly expires after **30 days**, automatically purging the identity from the target resource without manual IT intervention.
