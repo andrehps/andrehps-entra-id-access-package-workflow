@@ -46,12 +46,12 @@ Successfully provisioned the target governance container inside the Entra ID cat
 
 ### 2. Live Approval Action Notification
 The portal immediately triggers a green success notification banner ("Engineer Test aprovado com êxito") right when the approval payload executes.
-![Live Approval Banner](images/02-live-approval-banner.png)
+![Live Approval Banner](images/02-the-approval-action.png)
 
 ### 3. Manager Approval History (MyAccess Portal)
 The business manager workflow logs show that the request from `engineer.test` was validated and approved by the non-privileged `Engineering Manager`.
-![Manager Approval History](images/03-approval-history.png)
+![Manager Approval History](images/03-manager-approval.png)
 
 ### 4. Automated Target Group Assignment Result
 The directory engine automatically added the user `Engineer Test` as a direct member of the isolated infrastructure security container.
-![Final Member List Validation](images/04-final-members.png)
+![Final Member List Validation](images/04-final-member.png)
